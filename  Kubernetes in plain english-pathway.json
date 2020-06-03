@@ -1,5 +1,11 @@
 {
   "title": "Kubernetes in plain english",
   "description": "This is the hands-on tutorial for the \"Kubernetes in plain english\" by www.azuremonk.com",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "Pods in plain english",
+      "title": "Pods in plain english",
+      "description": "Pods in explained english - www.azuremonk.com"
+    }
+  ]
 }
