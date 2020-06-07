@@ -6,8 +6,20 @@ Copy and paste the following command with your podname to print the YAML file   
 
 ## Output YAML to file
 
-Copy and paste the following command with your podname to output the YAML to a file in order to edit it.  `kubectl run podname --image=nginx --dry-run=client > mypod.yaml`{{copy}}.
+Copy and paste the following command with your podname to output the YAML to a file in order to edit it.  `kubectl run podname --image=nginx --dry-run=client -o yaml > mypod.yaml`{{copy}}.
 
 ## Open in editor
 
- `anand.yaml`{{open}}.
+ `mypod.yaml`{{open}}.
+
+ ## Get the API Version and Kind for any Kubernetes Object 
+
+ `kubectl explain pods`{{execute}}.
+
+ If you scroll up to the top, the output you should be seeing is something like this: 
+
+![output](assets/explainpods.png)
+
+## Apply the modified yaml file 
+
+`kubectl apply -f mypod.yaml`{{execute}}.

@@ -16,7 +16,12 @@
       {
         "title": "Create pods declarative way",
         "text": "step3.md"
+      },
+      {
+        "title": "Deleting pods",
+        "text": "step4.md"
       }
+
     ],
     "intro": {
       "text": "intro.md"
