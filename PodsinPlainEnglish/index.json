@@ -28,7 +28,8 @@
   "environment": {
     "uilayout": "editor-terminal"
   },
-  "backend": {
-    "imageid": "kubernetes-cluster-running"
-  }
+    "backend": {
+        "port": 8080,
+        "imageid": "kubernetes-cluster-running"
+    }
 }
