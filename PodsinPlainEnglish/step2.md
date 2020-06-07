@@ -1,4 +1,3 @@
-# Create pod using Imperative way 
 
 ## Create your first pod
 

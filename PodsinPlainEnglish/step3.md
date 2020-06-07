@@ -1,5 +1,3 @@
-# Create pod using Declarative way 
-
 ## Prints out ready-made YAML
 
 Copy and paste the following command with your podname to print the YAML file   `kubectl run podname --image=nginx --dry-run=client -o yaml`{{copy}}.

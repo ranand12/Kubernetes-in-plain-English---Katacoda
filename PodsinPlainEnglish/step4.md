@@ -1,4 +1,3 @@
-# Delete the pod
 
 ## Delete the pod
 
