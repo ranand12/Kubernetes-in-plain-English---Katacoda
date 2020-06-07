@@ -6,11 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Check Kubernetes Cluster Version",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create pods imperative way",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create pods declarative way",
         "text": "step2.md"
       }
     ],
