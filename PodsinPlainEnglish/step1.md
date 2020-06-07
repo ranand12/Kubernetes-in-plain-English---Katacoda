@@ -1,4 +1,4 @@
 
-Check the version of the Kubernetes version using  `kubectl version`{{execute}}.
+# Kubernetes Version
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KeJJ34BvA7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Check the version of the Kubernetes version using  `kubectl version`{{execute}}.
